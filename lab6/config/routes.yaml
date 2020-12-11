@@ -1,0 +1,6 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+api_logger_log:
+  path: /logger/{name}
+  controller: App\Controller\LogController::logger
